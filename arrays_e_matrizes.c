@@ -84,30 +84,6 @@ int main() {
 
 // Faça um programa que lê três palavras do teclado e imprime as três palavras na ordem inversa.
 
-/*
-#include <string.h>
-
-int main() {
-    char palavra[50], inverso[50];
-
-    for (int i = 0; i < 3; i++) {
-        printf("%d palavra: ", i+1);
-        scanf("%s", palavra);
-
-        memset(inverso, 0, sizeof(inverso)); 
-
-        int tamanho = strlen(palavra);
-        for (int j = 0; j < tamanho; j++) {
-            inverso[j] = palavra[tamanho - j - 1];
-        }
-        inverso[tamanho] = '\n';
-
-        printf("Invertida: %s", inverso);
-    }
-    
-    return 0;
-}
-*/
 
 // Faça um programa que lê duas palavras do teclado e diz se elas são iguais ou diferentes. O programa deve dizer ainda se alguma das palavras digitadas é igual a “IFPI”.
 

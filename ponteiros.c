@@ -50,4 +50,4 @@ int main(void) {
     while(*p)
     printf("%c",*p++);
     return 0;
-}
+}           
